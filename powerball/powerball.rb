@@ -6,7 +6,7 @@ puts "In powerball, 5 white balls are selected from the 69 white balls which are
 white = (1..69).to_a
 powerball = (1..26).to_a
 
-print white.shuffle.first(5).join(' | ')
+print white.shuffle.first(5).sort.join(' | ')
 powerball = powerball.shuffle
 print " | Powerball: #{powerball[0]}"
 puts ""
@@ -14,13 +14,13 @@ puts ""
 #-----------------------------------------
 
 # Another way to do the same thing
-white.shuffle.first(5).each {|n| print "#{n} | "}
+white.shuffle.first(5).sort.each {|n| print "#{n} | "}
 powerball = powerball.shuffle
 print "Powerball: #{powerball[0]}"
 puts ""
 
 # And another way to do the same thing
-white.shuffle.first(5).each do |number|
+white.shuffle.first(5).sort.each do |number|
   print "#{number} | "
 end
 powerball = powerball.shuffle
