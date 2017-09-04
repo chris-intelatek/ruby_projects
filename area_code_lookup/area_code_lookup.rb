@@ -1,3 +1,4 @@
+# using a hash (dictionary) to store sets of data
 dial_book = {
   "Apex" => "919",
   "Asheboro" => "336",
