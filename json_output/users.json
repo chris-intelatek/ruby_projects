@@ -1,0 +1,5 @@
+{"email":"chris@intelatek.com","name":"Chris","permissions":{"accounts":"read","policies":"write","users":"write"}}
+{"email":"tara@intelatek.com","name":"Tara","permissions":{"accounts":"read","policies":"write","users":"write"}}{"email":"laura@intelatek.com","name":"Laura","permissions":{"accounts":"read","policies":"write","users":"write"}}
+{"email":"Tom@intelatek.com","name":"Tom","permissions":{"accounts":"read","policies":"write","users":"write"}}
+{"email":"any@whatever.com","name":"Anyone","permissions":{"accounts":"read","policies":"write","users":"write"}}
+{"email":"something@any.org","name":"Someone","permissions":{"accounts":"read","policies":"write","users":"write"}}
